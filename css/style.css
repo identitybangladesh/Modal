@@ -1,0 +1,99 @@
+/* basic css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* basic css end */
+/* modal css start */
+.modal-images{
+    background-color: black;
+    padding: 0 500px;
+}
+.modal-descrip-head h2{
+    font-size: 34px;
+    font-weight: 300;
+    color: #fff;
+}
+.facilities-list {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.offer-head{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.modal-offer-disc h5{
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.prev-price{
+    font-size: 12px;
+    color: #fff;
+}
+.disc-price{
+    color: #fff;
+    font-size: 28px;
+}
+.disc-price-txt{
+    font-size: 12px;
+}
+.modal-btn a{
+    padding: 12px;
+    background-color:#5392f9;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: all linear .3s;
+    font-size: 20px;
+}
+.modal-btn a:hover{
+    text-decoration: none;
+    background-color:#5392f9;
+    color: #fff;
+}
+/* modal css end */
+/* modal tab start*/
+.modal-tab{
+    border-bottom: 1px solid #222;
+}
+.nav-link{
+    padding: 0!important;
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: none!important; 
+    background-clip: none!important; 
+     border:  none!important; 
+     border-radius: none!important;
+    outline: none!important;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px!important; 
+}
+/* modal tab end */
